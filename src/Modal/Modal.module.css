@@ -1,0 +1,104 @@
+.modalLayout {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalCard {
+  background: rgba(239, 239, 239, 0.85);
+  width: 538px;
+  height: 164px;
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+.modalCardExpense {
+    background: rgba(239, 239, 239, 0.85);
+    width: 538px;
+    height: 335px;
+    border-radius: 15px;
+    padding: 1.5rem;
+  }
+.cardLabel {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34.47px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 1.5rem;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  
+}
+
+input,select {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+    margin-bottom: 0.5rem;
+  width: 45%;
+  height: 51px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(251, 251, 251, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 1rem 0 1rem;
+  color: black ; 
+}
+select {
+    font-family: "Open Sans";
+    font-size: 16px;
+    appearance: none;
+    color: black; 
+}
+
+select:invalid {
+    color: rgba(145, 145, 145, 1);
+}
+
+.inputField::placeholder{
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: rgba(145, 145, 145, 1);
+  ;
+}
+
+.addBalance,.addExpense {
+  width: 25%;
+  height: 51px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  background-color: rgba(244, 187, 74, 1);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cancel {
+  width: 25%;
+  height: 51px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

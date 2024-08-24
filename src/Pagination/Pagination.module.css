@@ -1,0 +1,41 @@
+.paginationControl {
+    
+    top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.previousButton,
+.nextButton {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(0deg, #f1f1f1, #f1f1f1),
+    linear-gradient(0deg, #f1f1f1, #f1f1f1),
+    linear-gradient(0deg, #f1f1f1, #f1f1f1),
+    linear-gradient(0deg, #f1f1f1, #f1f1f1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pageNum {
+  padding-top: 4px;
+  width: 37px;
+  height: 37px;
+  border-radius: 5px;
+  background: rgba(67, 150, 123, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.58px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.recentTransactions{
+    height:80%;
+    width: 100;
+}

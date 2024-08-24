@@ -1,0 +1,80 @@
+.itemContainer {
+  height: 33%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(155, 155, 155, 1);
+}
+
+.itemTitle {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.itemDate {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: rgba(155, 155, 155, 1);
+}
+
+.itemPrice {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  text-align: left;
+  color: rgba(244, 187, 74, 1);
+}
+
+.itemContainer svg{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top:2px;
+}
+.editButton {
+  width: 37px;
+  height: 37px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.deleteButton {
+  width: 37px;
+  height: 37px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 56, 56, 1);
+  border-radius: 15px;
+}
+
+.category_title_Date {
+  width: 40%;
+  display: flex;
+  gap: 1rem;
+}
+
+.categoryIcon {
+    position: relative;
+    top: 33%;
+}
+
+.title_Date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.price_edit_delete {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+
